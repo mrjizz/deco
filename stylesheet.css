@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+body{
+    background-color: #FBEEE3
+}
+
+p {
+    font-size: 0.6rem !important;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+
+li,
+a,
+button {
+    text-decoration: none;
+    list-style: none;
+    color: #333333;
+}
+
+li:hover{
+    cursor: pointer;
+    border-bottom: #333 solid 1px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+header img {
+    cursor: pointer;
+    height: 30px;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 30px 20px 0px 0;
+    vertical-align: center;
+}
+
+.cart {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: url("images/cart.svg");
+}
+
+
+.cart p {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: -30%;
+    left: 70%;
+    text-align: center;
+    font-size: .8rem!important;
+    background:#F95353;
+    border-radius: 50%;
+    line-height: 1.2rem;
+    color: #fff;
+
+}
+
+.shipping{
+    border-top:#333 solid 1px;
+    border-bottom:#333 solid 1px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10%;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.free_shipping {
+    margin:auto;
+    font-size: .8rem!important;
+}
+
+/* section one */
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+}
+
+section div{
+    margin: auto;
+    padding-left:10%;
+    display: inline-block;
+    
+}
+section div h1{
+    font-size: 4rem;
+    color: #333;
+}
+section div button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 5%;
+    padding:2% 5%;
+    background-color: #67FCAB;
+    color: #000;
+}
+section div button:hover{
+    cursor: pointer;
+}
+
+section img{
+    display: inline-block;
+    padding-top: 10%;
+    width: 180%;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 30%;
+
+}
+
+.brands img{
+    width: 100px;
+   margin: auto;
+   
+
+}
